@@ -1,9 +1,10 @@
 
 import base64
+import numpy as np
 
 from IPython.display import HTML
-from PIL import Image
 from io import BytesIO
+from PIL import Image
 from torchvision.datasets import CIFAR10
 from torchvision import transforms
 
